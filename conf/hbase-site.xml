@@ -23,10 +23,6 @@
 -->
 <configuration>
   <property>
-    <name>hbase.rootdir</name>
-    <value>file:///home/hunguyen/Study/Hbase/dataDir</value>
-  </property>
-  <property>
     <name>hbase.cluster.distributed</name>
     <value>false</value>
   </property>
