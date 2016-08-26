@@ -30,15 +30,4 @@
     <name>hbase.zookeeper.quorum</name>
     <value>hunguyen</value>
   </property>
-<<<<<<< HEAD
-=======
-<!--  <property>
-    <name>zookeeper.znode.parent</name>
-    <value>/hbase-unsecure</value>
-  </property>
-  <property>
-    <name>hbase.rpc.timeout</name>
-    <value>2592000000</value>
-  </property> -->
->>>>>>> 0ee4046767a770eae6ffbf7ea4164a2b18dead10
 </configuration>

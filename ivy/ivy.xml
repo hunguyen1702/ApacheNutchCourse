@@ -100,12 +100,7 @@
     and add changing="true" alongside the dependency declaration. An example has been
     provided for the gora-core dependency as below -->
     <dependency org="org.apache.gora" name="gora-core" rev="0.6.1" conf="*->default"/>
-<<<<<<< HEAD
-    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6.1" conf="*->default" /> 
-    <dependency org="org.apache.hbase" name="hbase-common" rev="0.98.8-hadoop2" conf="*->default" /> 
-=======
-    
->>>>>>> 0ee4046767a770eae6ffbf7ea4164a2b18dead10
+
     <!-- Uncomment this to use SQL as Gora backend. It should be noted that the 
     gora-sql 0.1.1-incubating artifact is NOT compatable with gora-core 0.3. Users should 
     downgrade to gora-core 0.2.1 in order to use SQL as a backend however this is not suggested. -->
@@ -117,15 +112,15 @@
     <dependency org="mysql" name="mysql-connector-java" rev="5.1.18" conf="*->default"/> 
     -->
     <!-- Uncomment this to use HBase as Gora backend. -->
-<<<<<<< HEAD
+
     <!--     
     <dependency org="org.apache.gora" name="gora-hbase" rev="0.6.1" conf="*->default" /> 
     -->
-=======
+
         
     <dependency org="org.apache.gora" name="gora-hbase" rev="0.6.1" conf="*->default" /> 
     <dependency org="org.apache.hbase" name="hbase-common" rev="0.98.8-hadoop2" conf="*->default" />  
->>>>>>> 0ee4046767a770eae6ffbf7ea4164a2b18dead10
+
     <!-- Uncomment this to use Accumulo as Gora backend. -->
     <!--
     <dependency org="org.apache.gora" name="gora-accumulo" rev="0.6.1" conf="*->default" />
